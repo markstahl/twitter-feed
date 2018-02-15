@@ -1,0 +1,87 @@
+body {
+  background-color:$grey;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.tweet {
+  background-color: $light-grey;
+  border: 1px solid #000;
+  margin: 0 auto 2px;
+  padding: 20px;
+  overflow: hidden;
+  width: 700px;
+}
+
+.profile_picture{
+  width: 73px;
+  float: left;
+  border: 1.5px solid #000
+}
+
+.body {
+  width: 567px;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+.header, .footer {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: $grey;
+  line-height: 13px;
+}
+
+.footer {
+  margin-top: 10px;
+}
+
+.header .name {
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.header .name li2 {
+  color: $grey
+}
+
+.header .name li3 {
+  color: $grey
+}
+
+.header .screen_name {
+  color: $light-grey
+}
+
+.header li, .footer li {
+  display: inline-block;
+  margin-right:5px;
+}
+
+.footer li {
+  width: 80px;
+}
+
+img {
+  max-width: 567px;
+}
+
+.green {
+  color: $green;
+}
+
+.red {
+  color: $red;
+}
+
+.date {
+  margin-left: 5px;
+}
+
+.icon {
+  margin-right: 5px;
+}
